@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.zoo.model.Animal;
 
-@RestController("/animal")
+@RestController
 public class ZooController {
 
 	@GetMapping("/test")
